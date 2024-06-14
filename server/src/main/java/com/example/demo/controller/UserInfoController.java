@@ -46,11 +46,9 @@ import java.io.PrintWriter;
 @Validated
 public class UserInfoController {
 
-    @Resource
     private final UserInfoService userInfoService;
-    @Resource
+
     private final EmailCodeService emailCodeService;
-    @Resource
     private final UserFileService userFileService;
 
     @Resource
