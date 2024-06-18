@@ -1,10 +1,10 @@
 package com.example.demo.aspect;
 
-import com.example.common.pojo.BizException;
-import com.example.common.pojo.ResultCode;
-import com.example.easypan.annotation.LoginValidator;
-import com.example.easypan.entity.constants.Constants;
-import com.example.easypan.entity.vo.SessionWebUserVO;
+import com.example.demo.annotation.LoginValidator;
+import com.example.demo.common.pojo.BizException;
+import com.example.demo.common.pojo.ResultCode;
+import com.example.demo.entity.constants.Constants;
+import com.example.demo.entity.vo.SessionWebUserVO;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
@@ -22,7 +22,7 @@ import java.lang.reflect.Method;
 @Component
 public class LoginAspect {
 
-    @Pointcut("@annotation(com.example.easypan.annotation.LoginValidator) || @within(com.example.easypan.annotation.LoginValidator)")
+    @Pointcut("@annotation(com.example.demo.annotation.LoginValidator) || @within(com.example.demo.annotation.LoginValidator)")
     private void pointCut() {}
 
     @Before("pointCut()")
