@@ -1,8 +1,8 @@
 package com.example.demo.common.handler;
 
-import com.swx.common.pojo.BizException;
-import com.swx.common.pojo.ErrorResult;
-import com.swx.common.pojo.ResultCode;
+import com.example.demo.common.pojo.BizException;
+import com.example.demo.common.pojo.ErrorResult;
+import com.example.demo.common.pojo.ResultCode;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.validation.BindException;

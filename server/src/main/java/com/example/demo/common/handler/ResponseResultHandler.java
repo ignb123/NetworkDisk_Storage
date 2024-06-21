@@ -1,8 +1,8 @@
 package com.example.demo.common.handler;
 
-import com.swx.common.annotation.ResponseResult;
-import com.swx.common.pojo.ErrorResult;
-import com.swx.common.pojo.R;
+import com.example.demo.common.annotation.ResponseResult;
+import com.example.demo.common.pojo.ErrorResult;
+import com.example.demo.common.pojo.R;
 import org.springframework.core.MethodParameter;
 import org.springframework.http.MediaType;
 import org.springframework.http.converter.HttpMessageConverter;
